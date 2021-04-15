@@ -1,0 +1,18 @@
+[alias]
+        st = status
+        cko = checkout
+        comm = commit
+        bra = branch
+        lch = diff-tree --no-commit-id --name-only -r HEAD
+
+[commit]
+        template = ~/.signoff
+
+[format]
+        signoff = true
+
+[user]
+        name = Cesar Velez
+        email = cesardv@users.noreply.github.com
+[push]
+        default = simple
